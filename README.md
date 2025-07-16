@@ -40,7 +40,7 @@ To execute the test using Browsertime (via [sitespeed.io](https://www.sitespeed.
 2. **Run the test script** from the repository root:
 
     ```powershell
-    sitespeed.io --browsertime.scripts Test/MakePayment.js
+    sitespeed.io Test/MakePayment.js --multi
     ```
 
    - This will launch Browsertime, execute the steps in `MakePayment.js`, and generate a performance report.
